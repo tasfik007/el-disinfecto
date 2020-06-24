@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './mobile.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -93,18 +93,18 @@ function Manual() {
         <Row>
           <Col></Col>
           <Col>
-            <img type="button" className="fwd" src={require('./send.png')} alt-text="" onClick={updateFwd} />
+            <img type="button" className="fwd" src={require('./send.png')} alt="" onClick={updateFwd} />
           </Col>
           <Col></Col>
         </Row>
         <Row>
-          <Col><img type="button" className="left" alt-text="" src={require('./send.png')} onClick={updateLeft} /></Col>
-          <Col><img type="button" className="fwd" alt-text="" src={require('./video.png')} onClick={updateDi} /></Col>
-          <Col><img type="button" className="right" alt-text="" src={require('./send.png')} onClick={updateRight} /></Col>
+          <Col><img type="button" className="left" alt="" src={require('./send.png')} onClick={updateLeft} /></Col>
+          <Col><img type="button" className="fwd" alt="" src={require('./video.png')} onClick={updateDi} /></Col>
+          <Col><img type="button" className="right" alt="" src={require('./send.png')} onClick={updateRight} /></Col>
         </Row>
         <Row>
           <Col></Col>
-          <Col><img type="button" className="bck" alt-text="" src={require('./send.png')} onClick={updateBck} /></Col>
+          <Col><img type="button" className="bck" alt="" src={require('./send.png')} onClick={updateBck} /></Col>
           <Col></Col>
         </Row>
 

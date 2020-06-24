@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Card } from 'react-bootstrap';
+import {Card } from 'react-bootstrap';
 import './mobile.css'
 import Live from './live';
 import Manual from './manual';
