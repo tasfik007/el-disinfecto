@@ -1,6 +1,10 @@
-.App {
-  text-align: center;
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 
 .App-logo {
   height: 40vmin;
