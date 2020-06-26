@@ -7,14 +7,14 @@ import Mobile from './components/mobile'
 
 
 function App() {
-  
+
   return (
-    <div>
+    <div >
 
       <Container>
         <Row>
           <Col></Col>
-          <Col><Mobile /></Col>
+          <Col className="fix"><Mobile /></Col>
           <Col></Col>
         </Row>
       </Container>

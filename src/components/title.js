@@ -6,7 +6,7 @@ function Title() {
     <div>
       <Jumbotron fluid>
         <Container>
-          <h1>La DisInfecto</h1>
+          <h1>El DisInfecto</h1>
           <p>
             IR-Beacon Guided Autonomous Disinfector Robot Using UVC and Junkyard Material for Cheap & Fast Production
           </p>

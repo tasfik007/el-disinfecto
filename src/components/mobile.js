@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import './mobile.css'
 import Live from './live';
 import Manual from './manual';
@@ -19,7 +19,7 @@ function Mobile() {
       <Card style={{ width: '45rem', height: '70rem' }} className="mobile">
         <Card.Body>
           <Card.Title>
-            <h1>La<br /> DisInfecto</h1>
+            <h1>El<br /> DisInfecto</h1>
           </Card.Title>
 
           <Live address={name} />
@@ -30,7 +30,7 @@ function Mobile() {
           <form onSubmit={handleSubmit}>
             <label>
               Address:
-            <input type="text" value={name} onChange={e => setName(e.target.value)} />
+            <input type="text" className="input" value={name} onChange={e => setName(e.target.value)} />
             </label>
             <input type="submit" value="Start Streaming" />
           </form>

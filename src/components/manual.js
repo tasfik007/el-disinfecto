@@ -40,7 +40,7 @@ function Manual() {
     e.preventDefault();
     // alert(`Updating Forward`)
     update(1, 0, 0, 0, 0);
-    sleep(5000).then(() => {
+    sleep(1000).then(() => {
       // Do something after the sleep!
       update(0, 0, 0, 0, 0);
     });
@@ -51,7 +51,7 @@ function Manual() {
     e.preventDefault();
     //alert(`Updating Backward`)
     update(0, 0, 1, 0, 0);
-    sleep(5000).then(() => {
+    sleep(1000).then(() => {
       // Do something after the sleep!
       update(0, 0, 0, 0, 0);
     });
@@ -60,7 +60,7 @@ function Manual() {
     e.preventDefault();
     //alert(`Updating Left`)
     update(0, 1, 0, 0, 0);
-    sleep(5000).then(() => {
+    sleep(1000).then(() => {
       // Do something after the sleep!
       update(0, 0, 0, 0, 0);
     });
@@ -69,7 +69,7 @@ function Manual() {
     e.preventDefault();
     //alert(`Updating Right`)
     update(0, 0, 0, 1, 0);
-    sleep(5000).then(() => {
+    sleep(1000).then(() => {
       // Do something after the sleep!
       update(0, 0, 0, 0, 0);
     });
@@ -78,7 +78,7 @@ function Manual() {
     e.preventDefault();
     //alert(`Updating Di`)
     update(0, 0, 0, 0, 1);
-    sleep(5000).then(() => {
+    sleep(1000).then(() => {
       // Do something after the sleep!
       update(0, 0, 0, 0, 0);
     });
